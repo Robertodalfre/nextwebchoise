@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-// var nodemailer = require('nodemailer');
+
 
 export default function Home() {
   return (
@@ -42,35 +42,3 @@ export default function Home() {
     
   )
 }
-
-// var remetente = nodemailer.createTransport({
-// 			host: 'smtp.mail.yahoo.com',
-// 			port: 587,
-// 			secure:false,
-// 			auth:{
-// 			user: 'robertodalfre@yahoo.com.br',
-// 			pass: 'cgrpnrybyzhzstqj' }
-// 			});
-			
-	
-// 			var emailASerEnviado = {
-// 				from: 'robertodalfre@yahoo.com.br',
-// 				to: 'robertodalfre@gmail.com',
-// 				subject: 'Enviando Email de teste',
-// 				text: 'Estou te enviando este email para testar meu aplicativo!!!! ! Favor Desconsiderar. Obrigado!!!!    - Roberto Dalfré',
-// 				// attachments: [{
-// 				// 	filename: 'screenshot22.png',
-// 				// 	path: __dirname +'/Image/screenshot22.png',
-// 				// 	cid: 'teste' //my mistake was putting "cid:logo@cid" here! 
-// 			  //  }]
-// 			};
-
-
-
-// 				remetente.sendMail(emailASerEnviado, function(error){
-// 					if (error) {
-// 					console.log(error);
-// 					} else {
-// 					console.log('Email enviado com sucesso.');
-// 					}
-// 				});
