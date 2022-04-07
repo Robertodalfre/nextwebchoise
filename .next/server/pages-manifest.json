@@ -1,9 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/api/emailReceive": "pages/api/emailReceive.js",
-  "/": "pages/index.html",
-  "/registry": "pages/registry.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }

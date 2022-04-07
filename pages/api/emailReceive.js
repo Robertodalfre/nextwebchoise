@@ -25,8 +25,8 @@ var remetente = nodemailer.createTransport({
   var emailASerEnviado = {
     from: 'robertodalfre@yahoo.com.br',
     to: teste_,
-    subject: 'Contato JR Recicláveis',
-    text: 'Obrigado pelo Email enviado. Entraremos em contato o mais rápido possível. Obrigado',
+    subject: 'Contact',
+    text: 'Thanks for the email',
     // attachments: [{
     // 	filename: 'screenshot22.png',
     // 	path: __dirname +'/Image/screenshot22.png',
@@ -40,7 +40,7 @@ var remetente = nodemailer.createTransport({
       if (error) {
       console.log(error);
       } else {
-      console.log('Email enviado com sucesso.');
+      console.log('Email enviado com sucesso.=> LOGGG');
       }
     });
 

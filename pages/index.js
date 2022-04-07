@@ -14,15 +14,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to JR Reciclagem<a href="#">
+          Welcome to Email Factory<a href="#">
           <br/>
         <br/>
-        Esse Site tem 1 endpoint que recebe 
-          um parametro(string-email) 
-          <br/>
-          e dispara do e-mail da empresa JR para 
-          <br/>
-          o email que recebeu o parâmetro.</a>
+        Recevid Parameter String-Email (/api/emailReceive)
+        <br/>
+          and Send Email
+          </a>
         </h1>
       </main>
 
