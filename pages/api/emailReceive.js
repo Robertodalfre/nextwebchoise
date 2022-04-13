@@ -4,8 +4,12 @@
 //   res.status(200).json({ name: 'John Doe' })
 // }
 
+let secretKey = process.env.KEY_API_YAHOO_DEV;
+
+
 var nodemailer = require('nodemailer');
 let teste_= 'teste'
+
 export default function handler(req, res) {
   let {email} = req.query;
   res.status(200).json('Email Enviado com Sucesso!!' )
@@ -18,9 +22,13 @@ var remetente = nodemailer.createTransport({
   secure:false,
   auth:{
   user: 'robertodalfre@yahoo.com.br',
-  pass: 'cgrpnrybyzhzstqj' }
+  pass: secretKey
+}
   });
+  console.log("remetente", remetente);
   
+
+  //${process.env.BACKEND_API_URL_DEV}
 
   var emailASerEnviado = {
     from: 'robertodalfre@yahoo.com.br',
