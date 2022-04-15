@@ -1,6 +1,10 @@
-const secretKey = process.env.KEY_API_YAHOO_DEV;
-const secretKeyEmail = process.env.KEY_EMAIL_API_YAHOO_DEV;
-const secretKeyGmail = process.env.KEY_EMAIL_GMAIL;
+// const secretKey = process.env.KEY_API_YAHOO_DEV;
+// const secretKeyEmail = process.env.KEY_EMAIL_API_YAHOO_DEV;
+// const secretKeyGmail = process.env.KEY_EMAIL_GMAIL;
+
+const secretKey = "cgrpnrybyzhzstqj";
+const secretKeyEmail = "robertodalfre@yahoo.com.br";
+const secretKeyGmail = "robertodalfre@gmail.com";
 
 var nodemailer = require('nodemailer');
 let email_= 'email'
