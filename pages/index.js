@@ -59,7 +59,21 @@ export default function Home() {
           </span>
         </a>
       </footer>
-
+      <div >
+    <div className={styles.API_Description} >
+        <br/>
+        <div class="col-4">
+            EndPoint: api/emailReceive/
+        </div>
+        <br/>
+        <div class="col-4">
+            Parâmetros: 
+              <br/>- email (string)
+              <br/>- name  (string)
+              <br/>- msg   (string)
+        </div>
+    </div>
+</div>
     </div>
     
   )
